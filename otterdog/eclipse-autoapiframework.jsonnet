@@ -18,6 +18,8 @@ orgs.newOrg('automotive.autoapiframework', 'eclipse-autoapiframework') {
     },
     orgs.newRepo('application-framework') {
     },
+    orgs.newRepo('autoapiframework') {
+    },
     orgs.newRepo('vss-gui-tool') {
     },
   ],
