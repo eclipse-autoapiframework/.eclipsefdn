@@ -3,6 +3,7 @@ local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 orgs.newOrg('automotive.autoapiframework', 'eclipse-autoapiframework') {
   settings+: {
     has_discussions: true,
+    discussion_source_repository: 'eclipse-autoapiframework/.github',
     workflows+: {
       actions_can_approve_pull_request_reviews: false,
     },
